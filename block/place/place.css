@@ -30,6 +30,6 @@
         max-width: 320px;
         min-height: 964px;
         grid-template-columns:repeat(1, 320px) 1fr;
-        grid-column-gap: 0x;
+        grid-column-gap: 0;
    }
 }
