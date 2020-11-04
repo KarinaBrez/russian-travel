@@ -1,0 +1,15 @@
+.place__website{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: end;
+    margin-bottom: 48px;
+    max-width: 456px;
+    min-height: 46px;
+}
+
+@media (max-width:320px){
+    .place__website{
+        display: none;
+    }
+
+}

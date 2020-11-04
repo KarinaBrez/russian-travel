@@ -1,0 +1,28 @@
+.header{
+     grid-area:header;
+     padding: 28px;
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+     border: 1px solid red;  
+    }
+
+@media (max-width: 1024px){
+     .header{
+          width: 90vw;
+     }  
+}
+@media (max-width: 768px){
+     .header{
+          width: 93vw;
+     }  
+}
+
+@media (max-width: 320px){
+     .header{
+          width: 90vw;
+     }  
+}
+
+
+ 

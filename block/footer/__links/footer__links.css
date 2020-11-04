@@ -1,0 +1,12 @@
+.footer__links{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 320px){
+    .footer__links{
+        max-width: 186px;
+        flex-wrap: wrap;
+    }
+}
