@@ -6,8 +6,8 @@
     grid-template-areas: 
         "header"
         "main" 
-        "footer"; 
-    justify-content: center;                   
+        "footer";
+    justify-content: center;                
     background: #2A2C2F;
     font-family: 'Inter', sans-serif;
     -moz-osx-font-smoothing: grayscale;
