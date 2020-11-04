@@ -1,7 +1,7 @@
 .footer{
     grid-area: footer;
     display: grid;
-    grid-template: 1fr / minmax(auto, 500px) minmax(auto, 200px) ;
+    grid-template: 1fr / minmax(auto, 500px) minmax(auto, 200px);
     justify-content: space-between;
     padding: 92px auto 24px;
     max-width: 1184px;
@@ -10,7 +10,7 @@
 
 @media (max-width: 320px){
     .footer{
-        grid-template: minmax(74px, 158px) 1fr/ 1fr ;
+        grid-template: minmax(74px, 158px) 1fr/ 1fr;
         justify-content: space-between;
         max-width: 186px;
     }
