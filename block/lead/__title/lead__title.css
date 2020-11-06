@@ -17,14 +17,14 @@
 }
 @media (max-width: 890px){
 .lead__title{
-  margin:48px 7% 32px ; 
+  margin:48px 7% 32px;
 }
 
 }
 
 @media (max-width: 768px){
 .lead__title{
-  margin:48px auto 32px ; 
+  margin:48px auto 32px;
 }
 
 }
