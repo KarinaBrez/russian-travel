@@ -1,3 +1,4 @@
+
 .footer__link{
     font-weight: normal;
     font-size: 16px;
@@ -6,17 +7,12 @@
     text-decoration: none;
     transition: opacity 1s ease;
 }
+@media (max-width:425px){
+    .footer__link {
+        text-align: left;
+    }
+}
 
 .footer__link:hover{
     opacity:0.8;
 }
-
-@media (max-width: 320px){
-    .footer__link{
-        margin-right: 10px;
-        font-size: 24px;
-        line-height: 100%;
-    
-   }
-}
-

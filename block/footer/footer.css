@@ -1,18 +1,12 @@
 .footer{
-    grid-area: footer;
     display: grid;
-    grid-template: 1fr / minmax(auto, 500px) minmax(auto, 200px) ;
-    justify-content: space-between;
-    padding: 92px auto 24px;
+    grid-template-columns: 1fr minmax(auto 533px) 186px;
+    grid-template-rows: 1fr;
     max-width: 1184px;
-    min-height: 18px;
 }
-
-@media (max-width: 320px){
-    .footer{
-        grid-template: minmax(74px, 158px) 1fr/ 1fr ;
+@media (max-width:425px){
+    .footer {
+        grid-template: 1fr 1fr/1fr;
         justify-content: space-between;
-        max-width: 186px;
     }
-
-    }
+}

@@ -9,20 +9,9 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 425px){
     .place__title{
-        max-width: 340px;
-        min-height: 92px;
-    
-   }
-}
-   @media (max-width: 320px){
-    .place__title{
-        margin: 0 auto 0;
-        min-width: 288px;
-        min-height: 32px;
         font-size: 32px;
-        line-height: 35px;
-    
-   }
+        line-height: 35px;  
+    }
 }

@@ -1,10 +1,11 @@
 .places{
-    display: grid;
-    grid-template-columns: minmax(1fr, 984);
-    grid-template-rows: auto;
-    justify-content: center;
-    margin: 0 auto 0;
-    padding: 0;
-    max-width: 984px;
-    min-height: 3392px;
+    margin: 0;
+    padding: 0 10% 0;
+}
+
+@media (max-width:1024px){
+    .places{
+        padding: 0 5% 0;
+        max-width: 90%;
+    }
 }

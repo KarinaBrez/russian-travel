@@ -3,13 +3,11 @@
     flex-direction: column-reverse;
     justify-content: end;
     margin-bottom: 48px;
-    max-width: 456px;
+    max-width: 486px;
     min-height: 46px;
 }
-
-@media (max-width:320px){
+@media (max-width: 425px){
     .place__website{
         display: none;
     }
-
 }

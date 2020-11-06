@@ -1,8 +1,8 @@
 .lead__caption{
     margin-top: 8px;
-    margin-left: calc(148px - 48px);
+    margin-left: 9.5%;
     padding: 0;
-    min-width: 158px;
+    max-width: 200px;
     min-height: 14px;
     font-weight: normal;
     font-size: 10px;
@@ -11,11 +11,9 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-
-@media (max-width: 320px){
+@media (max-width: 1024px){
     .lead__caption{
-    margin-left:16px;
+    margin-left: 5%;
     
    }
 }

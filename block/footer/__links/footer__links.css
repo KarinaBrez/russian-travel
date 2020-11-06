@@ -1,12 +1,12 @@
 .footer__links{
     display: flex;
     justify-content: space-between;
+    max-width: 60%;
+    align-items: center;
 
 }
-
-@media (max-width: 320px){
-    .footer__links{
-        max-width: 186px;
-        flex-wrap: wrap;
+@media (max-width:425px){
+    .footer__links {
+        flex-direction: column;
     }
 }
