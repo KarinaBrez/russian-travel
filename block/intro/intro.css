@@ -3,11 +3,16 @@
     margin-left: 13%;
     padding: 0;
     max-width: 690px;
-    min-height: 429px;
 }
 
 @media (max-width: 1024px){
     .intro{
         margin-left: 5%;
+   }
+}
+
+@media (max-width: 768px){
+    .intro{
+        padding: 110px 1% 0;
    }
 }
