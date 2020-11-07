@@ -36,16 +36,6 @@
 @media (max-width:1024px){
   .cover{
     margin: 0;
-<<<<<<< HEAD
     height: 62.5vw;
   }
 }
-=======
-  }
-}
-@media (max-width:320px){
-  .cover{
-    min-height: 200px;
-  }
-}
->>>>>>> ccd93ca63bc76582a84b278fb9acb539ed5abaed
