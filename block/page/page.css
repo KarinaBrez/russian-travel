@@ -1,7 +1,12 @@
 .page{
     max-width:100%;
+<<<<<<< HEAD
     min-height:100%;                
     background-color: #2A2C2F;
+=======
+    min-height:100%;
+    background: #2A2C2F;
+>>>>>>> cbfa0a7b778a3b677d3ddc975c25a69fdab7d7aa
     font-family: 'Inter', sans-serif;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
