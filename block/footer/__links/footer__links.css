@@ -1,12 +1,13 @@
 .footer__links{
+    margin-top: 2.5%;
     display: flex;
-    justify-content: space-between;
-    max-width: 60%;
-    align-items: center;
 
 }
 @media (max-width:425px){
     .footer__links {
+        margin-top: 0;
+        margin-bottom: 16px;
         flex-direction: column;
+        
     }
 }
