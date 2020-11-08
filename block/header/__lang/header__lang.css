@@ -1,7 +1,5 @@
 .header__lang{
     display: flex;
-    justify-content: space-between;
+    margin: 0;
     padding-bottom: 6px;
-    width: 80px;
-    min-height: 30px;
    }

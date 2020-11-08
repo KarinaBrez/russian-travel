@@ -6,9 +6,24 @@
     align-items: start;
     max-width: 1184px;
 }
-@media (max-width:425px){
+
+@media (max-width:1024px){
     .footer {
-        grid-template: 1fr 1fr/1fr;
-        justify-content: space-between;
+        max-width: 95%;
+        padding: 0 4.67% 0;
+    }
+}
+@media (max-width:768px){
+    .footer {
+        padding: 0 3.1% 0;
+    }
+}
+
+
+@media (max-width:708px){
+    .footer {
+        margin: 0;
+        padding: 0 0 48px;
+        grid-template: 1fr 14px/1fr;
     }
 }

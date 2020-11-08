@@ -1,9 +1,8 @@
 .footer__links{
-    margin-top: 2.5%;
     display: flex;
 
 }
-@media (max-width:425px){
+@media (max-width:708px){
     .footer__links {
         margin-top: 0;
         margin-bottom: 16px;
@@ -11,3 +10,4 @@
         
     }
 }
+

@@ -1,5 +1,22 @@
 .content{
-    margin: 0 auto;
+    margin: 0 auto ;
     padding: 56px 0 95px;
     max-width: 1184px;
 }
+
+@media (max-width: 1024px){
+    .content{
+        padding: 48px 0 92px;
+        margin: 0;
+        max-width: 100%;}
+    }
+
+    @media (max-width: 768px){
+        .content{
+            padding-bottom: 88px;}
+        }
+        
+        @media (max-width: 320px){
+            .content{
+                padding-bottom:62px;}
+            }

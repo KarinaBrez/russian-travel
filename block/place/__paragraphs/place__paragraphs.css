@@ -1,11 +1,8 @@
 .place__paragraphs{
 
 }
-
-@media (max-width: 425px){
+@media (max-width: 580px){
     .place__paragraphs{
-        padding-top:32px;
-        font-size: 16px;
-        line-height: 163%;  
+        margin-top: 32px;
     }
 }

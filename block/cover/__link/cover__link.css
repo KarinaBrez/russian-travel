@@ -1,4 +1,10 @@
 .cover__link{
-    color: #FFFFFF;
-    text-decoration: none;  
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
 }
+
+

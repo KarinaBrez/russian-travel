@@ -1,5 +1,5 @@
 .lead__title{
-  margin: 56px auto 32px;
+  margin: 0 auto 32px;
   max-width: 720px;
   font-weight:900;
   font-size: 96px;
@@ -10,20 +10,20 @@
 
 @media (max-width: 1024px){
 .lead__title{
-  margin:48px 13% 32px;
+  margin:0 13% 32px;
 }
 
 }
 @media (max-width: 890px){
 .lead__title{
-  margin:48px 7% 32px;
+  margin:0 7% 32px;
 }
 
 }
 
 @media (max-width: 768px){
 .lead__title{
-  margin:48px auto 32px;
+  margin:0 auto 32px;
 }
 
 }
