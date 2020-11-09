@@ -19,6 +19,7 @@
 @media (max-width: 768px){
     .lead__caption{
     margin-left: 3.1%;
+    margin-bottom: 0;
     
    }
 }

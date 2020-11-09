@@ -5,6 +5,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 1fr;
     gap: 48px 40px;
+    padding-top: 80px;
   }
   
   @media (max-width: 1024px){
@@ -13,20 +14,22 @@
          gap: 48px 32px;
       }
   }
-  @media (max-width: 768px){
+  @media (max-width: 951px){
       .place{
         grid-template-columns: minmax(auto, 340px) 1fr;
         gap: 48px 28px;
+        padding-top: 72px;
       }
   }
   
   
   
-  @media (max-width: 580px){
+  @media (max-width: 702px){
       .place{
           margin-bottom: 24px;
-          display: block;
-          max-width: 320px;
+          padding: 0;
+          grid-template-columns:repeat(auto-fit, minmax(auto, 320px));
+          justify-content: center;
       }
   }
   

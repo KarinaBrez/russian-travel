@@ -19,7 +19,7 @@
 
 @media (max-width: 425px){
     .place__title{
-        margin-bottom: 32px;
+        padding: 0 5% 0;
         font-size: 32px;
         line-height: 35px; 
     }

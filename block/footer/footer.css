@@ -1,9 +1,8 @@
 .footer{
     margin: 0 auto 0;
-    display: grid;
-    grid-template-columns: 1fr  186px;
-    grid-template-rows: 1fr;
-    align-items: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     max-width: 1184px;
 }
 
@@ -20,10 +19,10 @@
 }
 
 
-@media (max-width:708px){
+@media (max-width:711px){
     .footer {
         margin: 0;
-        padding: 0 0 48px;
-        grid-template: 1fr 14px/1fr;
+        padding: 0 0 24px;
+        flex-direction: column;
     }
 }
