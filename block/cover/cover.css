@@ -4,12 +4,10 @@
     max-width: 100%;
     min-height: 62.5vw;
     position: relative;
-    width: 100%;
-    min-height: 62.5vw;
     box-sizing: border-box;
     background-image:url(../../images/cover-trains.jpg);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     text-decoration: none;
   }
 
